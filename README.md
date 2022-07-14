@@ -10,6 +10,6 @@ As this is a hardware only project, firmware for this panel will be from other s
 
 
 ## Getting Started (Not released)
-The documentation contains information, explanations, and frequently asked questions.
+The documentation contains information, explanations, and frequently asked questions.\
 For more help, please join the ______ on Discord
 
