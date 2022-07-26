@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 2.2,
+          "height": 2.2,
+          "width": 2.2
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -48,13 +48,7 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -118,15 +112,8 @@
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [
-        0.0
-      ],
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "track_widths": [],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -346,28 +333,11 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Wall Module.kicad_pro",
+    "filename": "Screen Module.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
-      {
-        "bus_width": 12.0,
-        "clearance": 0.152,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Default",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
-        "via_diameter": 0.61,
-        "via_drill": 0.305,
-        "wire_width": 6.0
-      },
       {
         "bus_width": 12.0,
         "clearance": 0.2,
@@ -377,18 +347,12 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "AC",
-        "nets": [
-          "L",
-          "N",
-          "RELAY1",
-          "RELAY2"
-        ],
+        "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.5,
-        "via_diameter": 2.0,
-        "via_drill": 1.1,
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 6.0
       }
     ],
@@ -403,8 +367,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "Wall Module.step",
-      "vrml": "Wall Module.wrl"
+      "step": "../../../../../../Desktop/Screen Module.step",
+      "vrml": ""
     },
     "page_layout_descr_file": ""
   },
@@ -448,7 +412,7 @@
   },
   "sheets": [
     [
-      "2c64771a-0609-4a12-921e-320a4cdfcd23",
+      "4c5c464b-578c-4987-a962-703f811709f6",
       ""
     ]
   ],
